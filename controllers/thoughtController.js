@@ -32,7 +32,7 @@ module.exports = {
 
             const user = await User.findOneAndUpdate(
                 { _id: req.body.userId },
-                { $push: { thoughts: _id } },
+                //{ $push: { thoughts: _id } },
                 { new: true }
             );
 
@@ -113,7 +113,8 @@ module.exports = {
 
             res.json(thought);
         } catch(err) {
-            res.status(500).json(err);
+            console.log(err);
+            return res.status(500).json(err);
         }
     },
     //delete a reaction
