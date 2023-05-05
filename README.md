@@ -20,7 +20,7 @@ THEN I am able to successfully create and delete reactions to thoughts and add a
 ```
 
 ## Description
-
+With this application, the user can create a new user, thought, or reaction. The user can also add friends or delete them. One slight flaw is that the create and delete reactions is currently not functioning. Further testing is needed to complete and perfect code.
 
 <p align="center">
     <a href="https://github.com/mbatorek7/hw18-social-network"><img src="https://img.shields.io/badge/-See Live Site-success?style=for-the-badge"  alt="GitHub Repo" ></a>
