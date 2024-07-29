@@ -36,7 +36,7 @@ Here is what the final product looks like and how to use it:
 ## Installation
 To clone this repo:
 
-git clone git@github.com:mbatorek7/hw18-social-network.git
+git clone git@github.com:mbatorek7/social-network.git
 
 ## License
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
